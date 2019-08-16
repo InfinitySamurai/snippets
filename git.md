@@ -15,7 +15,7 @@
 - Checkout a branch `git checkout <branchname>`
 - Create a new branch from current head `git checkout -b <new branch name>`
 - Delete a branch if it's merged into the branch you're currently on `git branch -d <branchname>`
-- Delete a branch regardless of it's been merged `git branch -D <branchname>`
+- Delete a branch regardless of it has been merged `git branch -D <branchname>`
 
   - Note this can be undone, When you delete it, it will give you a hash of the commit which you can use to check it out again
 
