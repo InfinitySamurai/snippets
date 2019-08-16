@@ -24,3 +24,4 @@
     > `Deleted branch dontDeleteBranch (was bcef639)`
 
     > `git checkout bcef639`
+- Pruning stale remote branches `git remote prune origin`
