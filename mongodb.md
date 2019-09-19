@@ -17,6 +17,6 @@
 
 - Finding record that have a list of objects, with an object that matches a regex
   - This one is a bit complicated. If you have a list of objects i.e `history: [object1, object2, object3]`, you might want to get records where those object have certain properties
-  - `find({history: {$elemMatch: {year: "1953", event: /Gallipoli/}}}))
+  - `find({history: {$elemMatch: {year: "1953", event: /Gallipoli/}}}))`
   - This will return the objects that have a histroy list, and where that history list contains any item that contains the year and event that match
   - https://docs.mongodb.com/manual/reference/operator/query/elemMatch/
